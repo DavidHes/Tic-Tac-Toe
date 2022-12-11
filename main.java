@@ -82,7 +82,7 @@ public class main {
                     i--;
                 }
             } else {
-                System.out.println("Falsche Eingabe! Gebe eine Spalte ein! Spalten sind 1, 2 oder 3!");
+                System.out.println("Falsche Eingabe! Gebe eine Zeile ein! Spalten sind 1, 2 oder 3!");
 
             }
         }
