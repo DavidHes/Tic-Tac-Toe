@@ -48,7 +48,14 @@ public class main {
                 if (!SPIELFELD[UmwandlerSpalte(Spalte)][UmwandlerZeile(Zeile)].equalsIgnoreCase("0")) {
                     if (!SPIELFELD[UmwandlerSpalte(Spalte)][UmwandlerZeile(Zeile)].equalsIgnoreCase("X")) {
                         if (i == 0 || i == 2 || i == 4 || i == 6 || i == 8) {
+                            
                             SPIELFELD[UmwandlerSpalte(Spalte)][UmwandlerZeile(Zeile)] = "X";
+                            
+                            Bsp.: Spalte = A; Zeile = 3
+                                
+                            SPIELFELD[A][3] = "X";
+                            SPIELFELD[0][2] = "X";
+                            
                         } else {
                             SPIELFELD[UmwandlerSpalte(Spalte)][UmwandlerZeile(Zeile)] = "0";
                         }
